@@ -1,4 +1,6 @@
+#!/usr/bin/python -tt
 # Closure Property in Python
+
 
 def makeAdder(addend):
     def adder(augend):
@@ -6,5 +8,5 @@ def makeAdder(addend):
     return adder
 
 
-#>>> a23 = closure.makeAdder(23)   #a23 is a function 
-#>>> a23(100)
+a23 = makeAdder(23)   #a23 is a function 
+print a23(77)
