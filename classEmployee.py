@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# File: Python Class 
+#!/usr/bin/python -tt
+# Python Class 
 
 
 class Employee:
@@ -19,7 +19,7 @@ class Employee:
    def displayCount(self):
       print 'Total Employeed %d'  % Employee.empCount
 
-   # instnace method    
+   # instance method    
    def displayEmployee(self):
       print 'Name : ', self.name, ', Salary : $', self.salary
 
@@ -42,7 +42,6 @@ def main():
    emp1.displayEmployee()
    emp2.displayEmployee()
    print 'Number of employee: %s' %Employee.empCount
-
 
 
 if __name__== '__main__':
